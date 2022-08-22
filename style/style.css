@@ -5,7 +5,7 @@ body{
     height: 281px;
 }
 .header_content section h1{
-    color: #FF5E19;
+    color: #ff5e18;
     font-size: 50px;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Berkshire Swash', sans-serif;
 }
