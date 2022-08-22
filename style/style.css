@@ -2,10 +2,10 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 .header_content{
-    height: 281px;
+    height: 351px;
 }
 .header_content section h1{
     color: #ff5e18;
     font-size: 50px;
-    font-family: 'Berkshire Swash', sans-serif;
+    font-family: 'Berkshire Swash', cursive;
 }

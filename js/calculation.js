@@ -1,4 +1,4 @@
-
+// calculate player expeses 
 document.getElementById('calculate_player_expenses').addEventListener('click', function () {
 
     // get list Total items 
@@ -40,6 +40,7 @@ document.getElementById('calculate_player_expenses').addEventListener('click', f
     return playerExpenses.innerText;
 })
 
+// calculate total expeses 
 document.getElementById('calculate_total_expenses').addEventListener('click', function () { 
     // get expenses innerText 
     const playerExpensesElement = document.getElementById('player_expenses');
