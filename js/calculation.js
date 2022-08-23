@@ -25,7 +25,7 @@ document.getElementById('calculate_player_expenses').addEventListener('click', f
         perPlayerCostField.value = '';
         return;
     }
-    else if (perPlayerCost < 1) {
+    else if (perPlayerCost < 1 || perPlayerCostField.value.startsWith('.')) {
         alert('Please Enter Valid Amount in Per Player Field');
         perPlayerCostField.value = '';
         return;
@@ -78,7 +78,7 @@ document.getElementById('calculate_total_expenses').addEventListener('click', fu
         alert('Please Enter valid amount for manager');
         return;
     }
-    else if (managerExpenses < 1) {
+    else if (managerExpenses < 1 || managerExpensesField.value.startsWith('.')) {
         alert('Please Enter valid amount for manager');
         return;
     }
@@ -90,7 +90,7 @@ document.getElementById('calculate_total_expenses').addEventListener('click', fu
         alert('Please Enter valid amount for coach');
         return;        
     }
-    else if (coachExpenses < 1) {
+    else if (coachExpenses < 1 || coachExpensesField.value.startsWith('.')) {
         alert('Please Enter valid amount for coach');
         return;        
     }
