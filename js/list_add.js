@@ -27,6 +27,9 @@ function playerAdd(playerId, btnSelected) {
     btnSelect.classList.add('bg-white');
 }
 
+document.getElementById('select_btn_1').addEventListener('click', function (event) {
+    playerAdd('player_name_1', 'select_btn_1');   
+})
 document.getElementById('select_btn_2').addEventListener('click', function (event) {
     playerAdd('player_name_2', 'select_btn_2');   
 })
